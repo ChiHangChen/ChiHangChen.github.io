@@ -122,4 +122,4 @@ Tutor Assistance
  - Generate Company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
  - Using  R  language  and  shiny  package  develop  internet  movie  theater.*[shinyapps.io](https://chihangchen.shinyapps.io/MovieTheater/)*
 
-Update date : 2019/01/07
+Last update time : 2019/01/07
