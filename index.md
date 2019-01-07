@@ -12,7 +12,7 @@
 ## **Education**
 
 2016 - 2018
-:   **M.S. Degree : Industrial Engineering and Engineering Management ; **<a href="https://nthu-en.web.nthu.edu.tw/bin/home.php">![NTHU](img/nthu_icon.jpg){width=40px}</a> **National Tsing Hua University, Hsinchu, Taiwan**
+:   **M.S. Degree : Industrial Engineering and Engineering Management ; National Tsing Hua University, Hsinchu, Taiwan**<a href="https://nthu-en.web.nthu.edu.tw/bin/home.php">![NTHU](img/nthu_icon.jpg){width=40px}</a>
 
     *Thesis title : Apply Intelligent Agent in Manufacturing Parameter Optimization and Empirical Study-Cases Study of Precision Forming and IC Packaging Process*
 
@@ -22,26 +22,26 @@ Tutor Assistance
  -  Data Mining, 1 semester
 
 2012 - 2016
-:   **B.S. Degree : Statistics ; ** <a href="https://www.nccu.edu.tw/?locale=en">![NCCU](img/nccu_icon.jpg){width=40px}</a> **National Cheng Chi University, Taipei, Taiwan**
+:   **B.S. Degree : Statistics ; National Cheng Chi University, Taipei, Taiwan** <a href="https://www.nccu.edu.tw/?locale=en">![NCCU](img/nccu_icon.jpg){width=40px}</a>
 
 ***
 
 ## **Experience**
 
-2018/07 - Present
-: **Artificial Intelligence for Intelligent Manufacturing Systems Research Center, Hsinchu, Taiwan : ** *Machine Learning Engineer*
+2018/07 - Present　![aims](img/aims.png){width=180px}
+: **Artificial Intelligence for Intelligent Manufacturing Systems Research Center, Hsinchu, Taiwan : ** *Machine Learning Engineer* 
 
  - Data  collection,  analysis,  report.
  - System  development.
  - Cooperate  with  customers  to  solve  problems  by  using  data  analysis  and  machine  learning.
 
-2017/07 - 2017/08
+2017/07 - 2017/08　![ase](img/ase.png){width=40px}
 : **Advanced Semiconductor Engineering, Taoyuan, Taiwan : ** *Intern*　　
  
  - Data  collection,  analysis,  report.
  - Domain  knowledge  learning.
  
-2016/07 - 2016/10
+2016/07 - 2016/10　![mpi](img/mpi.jpg){width=60px}
 : **MPI Corporation, Hsinchu, Taiwan : ** *Intern* 　
  
  - Data  collection,  analysis,  report.
@@ -52,15 +52,15 @@ Tutor Assistance
 ## **Skills**
 **Programing Language :**
 
-* R
-* Python
-* C++
-* SQL
+* R　　　 ![R](img/R.png){width=30px}
+* Python　![py](img/py.png){width=30px}
+* C++　 　![Cpp](img/cpp.png){width=30px}
+* SQL 　　![sql](img/sql.png){width=30px}
 
 **Other Software**
 
-* Google Cloud Platform
-* Linux
+* Google Cloud Platform ![gcp](img/gcp.png){width=30px}
+* Linux　![linux](img/linux.jpg){width=30px}
 
 ***
 
@@ -109,9 +109,7 @@ Tutor Assistance
 
 ***
 
-## **Technical Experience**
-
-**My Cool Side Project**
+## **Side Project**
 
  - R  language  package  :  [KeyboardSimulator](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)
 ![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
@@ -121,5 +119,8 @@ Tutor Assistance
  - Gomoku  AI  :  Using  PTT  chess  Playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
  - Generate Company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
  - Using  R  language  and  shiny  package  develop  internet  movie  theater.*[shinyapps.io](https://chihangchen.shinyapps.io/MovieTheater/)*
+ - Object detection and record object moving track *[GitHub](https://github.com/ChiHangChen/ObjectDetection)*
+
+***
 
 Last update time : 2019/01/07
