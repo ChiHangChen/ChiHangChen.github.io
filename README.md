@@ -121,3 +121,5 @@ Tutor Assistance
  - Gomoku  AI  :  Using  PTT  chess  Playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
  - Generate Company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
  - Using  R  language  and  shiny  package  develop  internet  movie  theater.*[shinyapps.io](https://chihangchen.shinyapps.io/MovieTheater/)*
+
+Update date : 2019/01/07
