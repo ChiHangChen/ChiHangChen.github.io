@@ -16,7 +16,7 @@
 
     *Thesis title : Apply Intelligent Agent in Manufacturing Parameter Optimization and Empirical Study-Cases Study of Precision Forming and IC Packaging Process*
 
-Tutor Assistance
+Tutor Assistant Experience
 
  -  Decision Analysis, 1 semester
  -  Data Mining, 1 semester
