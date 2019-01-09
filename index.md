@@ -31,21 +31,22 @@ Tutor Assistance
 2018/07 - Present　![aims](img/aims.png){width=180px}
 : **Artificial Intelligence for Intelligent Manufacturing Systems Research Center, Hsinchu, Taiwan : ** *Machine Learning Engineer* 
 
- - Data  collection,  analysis,  report.
- - System  development.
- - Cooperate  with  customers  to  solve  problems  by  using  data  analysis  and  machine  learning.
+ - Data  collection,  analysis,  report
+ - System  development
+ - Develop client
+ - Cooperate  with  customers  to  solve  problems  by  using  data  analysis
 
 2017/07 - 2017/08　![ase](img/ase.png){width=40px}
 : **Advanced Semiconductor Engineering, Taoyuan, Taiwan : ** *Intern*　　
  
- - Data  collection,  analysis,  report.
- - Domain  knowledge  learning.
+ - Data  collection,  analysis,  report
+ - Domain  knowledge  learning
  
 2016/07 - 2016/10　![mpi](img/mpi.jpg){width=60px}
 : **MPI Corporation, Hsinchu, Taiwan : ** *Intern* 　
  
- - Data  collection,  analysis,  report.
- - Domain  knowledge  learning.
+ - Data  collection,  analysis,  report
+ - Domain  knowledge  learning
 
 ***
 
