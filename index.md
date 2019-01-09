@@ -33,7 +33,7 @@ Tutor Assistance
 
  - Data  collection,  analysis,  report
  - System  development
- - Develop client
+ - Client development
  - Cooperate  with  customers  to  solve  problems  by  using  data  analysis
 
 2017/07 - 2017/08　![ase](img/ase.png){width=40px}
