@@ -119,7 +119,7 @@ Tutor Assistant Experience
  - Minitab  RSM  analysis  module  development  using  R  language. *[shinyapps.io](https://chihangchen.shinyapps.io/Minitab-RSM-in-R/)*
  - Gomoku  AI  :  Using  PTT  chess  Playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
  - Generate Company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
- - Using  R  language  and  shiny  package  develop  internet  movie  theater.*[shinyapps.io](https://chihangchen.shinyapps.io/MovieTheater/)*
+ - Using  R  language  and  shiny  package  develop  web  movie  theater. *[private server](http://chihangdalab.nctu.me:10002/MovieTheater/)*
  - Object detection and record object moving track *[GitHub](https://github.com/ChiHangChen/ObjectDetection)*
 
 ***
