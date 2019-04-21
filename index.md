@@ -29,12 +29,13 @@ Tutor Assistant Experience
 ## **Experience**
 
 2018/07 - Present　![aims](img/aims.png){width=180px}
-: **Artificial Intelligence for Intelligent Manufacturing Systems Research Center, Hsinchu, Taiwan : ** *Machine Learning Engineer* 
+: **Artificial Intelligence for Intelligent Manufacturing Systems Research Center, Hsinchu, Taiwan : ** *Algorithm Development Engineer* 
 
  - Data  collection,  analysis,  report
  - System  development
  - Client development
  - Cooperate  with  customers  to  solve  problems  by  using  data  analysis
+ - Analysis consultant
 
 2017/07 - 2017/08　![ase](img/ase.png){width=40px}
 : **Advanced Semiconductor Engineering, Taoyuan, Taiwan : ** *Intern*　　
@@ -67,7 +68,7 @@ Tutor Assistant Experience
 
 ## **Industry-University Cooperative Research Project**
 
-* 2018/11-Present
+* 2018/11-2019/05
 : *Fault Detection in Dyeing Process*
 
 * 2017/06-2017/10
