@@ -130,15 +130,15 @@ Tutor Assistant Experience
 ## **Side Project**
 
  - Object detection for rice classification - construct with LEGO brick : [GitHub](https://github.com/ChiHangChen/Object_Detection_Rice)
+ - Web chatting room hide behind Stackoverflow interface : *[shinyapps.io](https://chihangchen.shinyapps.io/ShinyChat/)*
  - R  language  package  :  [KeyboardSimulator](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)
 ![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
 ![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
- - Using  Computer  Vision  play  mobile  game  automatically. *[GitHub](https://github.com/ChiHangChen/MapleStoryM-AutoQuest)*
+ - Using  computer  vision  play  mobile  game  automatically. *[GitHub](https://github.com/ChiHangChen/MapleStoryM-AutoQuest)*
  - Minitab  RSM  analysis  module  development  using  R  language. *[shinyapps.io](https://chihangchen.shinyapps.io/Minitab-RSM-in-R/)*
- - Gomoku  AI  :  Using  PTT  chess  Playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
- - Generate Company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
- - Using  R  language  and  shiny  package  develop  web  movie  theater. *[private server](http://chihangdalab.nctu.me:10002/MovieTheater/)*
- - Object detection and record object moving track *[GitHub](https://github.com/ChiHangChen/ObjectDetection)*
+ - Gomoku  AI  :  Using  PTT  chess  playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
+ - Generate company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
+ - Using R language and shiny package develop web movie theater. *[shinyapps.i](https://chihangchen.shinyapps.io/MovieTheater/)*
 
 ***
 
