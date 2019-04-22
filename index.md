@@ -69,7 +69,10 @@ Tutor Assistant Experience
 ## **Industry-University Cooperative Research Project**
 
 * 2018/11-2019/05
-: *Fault Detection in Dyeing Process*
+: *Fault Detection for Dyeing Process*
+
+* 2018/07-2019/06
+: *Optimization of Cutting Parameters for NC Machining*
 
 * 2017/06-2017/10
 : *Module  for  Advanced  Monitoring  the  Difference  among  IC  Package  Machines	*
@@ -113,6 +116,7 @@ Tutor Assistant Experience
 
 ## **Side Project**
 
+ - Object detection for rice classification - construct with LEGO brick : [GitHub](https://github.com/ChiHangChen/Object_Detection_Rice)
  - R  language  package  :  [KeyboardSimulator](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)
 ![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
 ![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
