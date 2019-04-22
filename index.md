@@ -1,6 +1,19 @@
+---
+title:  Jim Chen
+---
+
+<style type="text/css">
+
+h1.title {
+  font-size: 38px;
+  font-weight:bold;
+  text-align: center;
+}
+</style>
+
 <img align="right" width="110" height="950" src="img/me.jpg">
 
-<center><h1>  **Jim Chen**　</h1></center>
+
 
 -------------------     ----------------------------
 
