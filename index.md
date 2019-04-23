@@ -83,15 +83,21 @@ Tutor Assistant Experience
 
 * 2018/11-2019/05
 : *Fault Detection for Dyeing Process*
+  `Using machine learning techniques (Microsoft lgbm model) and explainable AI (LIME) to find key features of causing dyeing process failed.`
 
 * 2018/07-2019/06
 : *Optimization of Cutting Parameters for NC Machining*
+  `Using machine learning techniques (Microsoft lgbm model) and optimization algorithm (GA) to find optimal setting of cutting parameters`
 
 * 2017/06-2017/10
 : *Module  for  Advanced  Monitoring  the  Difference  among  IC  Package  Machines	*
+  `Using machine learning techniques (PLSR model) and optimization algorithm (GA) to find optimal setting of cutting parameters`
 
 * 2016/06-2018/06
 : *Big  Data  Analytics  for  Precision  Molding  Process*
+  `Using machine learning techniques (PLSR model) and optimization algorithm (GA) to find optimal setting of cutting parameters`
+  `Using convolutional neural network (InceptionResNetv2) classify precision forming product`
+  `Using convolutional neural network classify precision forming process signal`
 
 ***
 
@@ -142,4 +148,4 @@ Tutor Assistant Experience
 
 ***
 
-Last update time : 2019/04/22
+Last update time : 2019/04/23
