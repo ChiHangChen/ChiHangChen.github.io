@@ -81,6 +81,10 @@ Tutor Assistant Experience
 
 ## **Industry-University Cooperative Research Project**
 
+* 2019/05-2019/05
+: *Consultant*
+  `Advisor for data analysis and procedure improvement.`
+
 * 2018/11-2019/05
 : *Fault Detection for Dyeing Process*
   `Using machine learning techniques (Microsoft lgbm model) and explainable AI (LIME) to find key features of causing dyeing process failed.`
@@ -148,4 +152,4 @@ Tutor Assistant Experience
 
 ***
 
-Last update time : 2019/05/18
+Last update time : 2019/05/22
