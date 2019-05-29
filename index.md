@@ -144,6 +144,9 @@ Tutor Assistant Experience
  - R  language  package  :  [KeyboardSimulator](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)
 ![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
 ![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
+ - R  language  package  :  [SRTtools](https://cran.r-project.org/web/packages/SRTtools/index.html)
+![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/SRTtools)
+![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/SRTtools)
  - Using  computer  vision  play  mobile  game  automatically. *[GitHub](https://github.com/ChiHangChen/MapleStoryM-AutoQuest)*
  - Minitab  RSM  analysis  module  development  using  R  language. *[shinyapps.io](https://chihangchen.shinyapps.io/Minitab-RSM-in-R/)*
  - Gomoku  AI  :  Using  PTT  chess  playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
@@ -152,4 +155,4 @@ Tutor Assistant Experience
 
 ***
 
-Last update time : 2019/05/22
+Last update time : 2019/05/29
