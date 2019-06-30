@@ -111,11 +111,7 @@ Tutor Assistant Experience
 **Start  up  group : Rank  2**
 * 2018  Thesis  Competition  of  College  of  Engineering  of  National  Tsing-Hua  University  -  Apply  Intelligent  Agent  in  Manufacturing  Parameter  Optimization  and  Empirical  Study-Cases  Study  of  Precision  Forming  and  IC  Packaging  Process **Honorable  mention**
 * The  20th  Decision  Analysis  Conference  -  Analytic  Hierarchy  Process  of  Multi-  Attribute  Comparison  of  Telecommunication  Companies  in  Taiwan	**Best  paper  award**
-* 2018  TsingHua  University  computer  science  department  deep  learning  course  :  object  detection  competition **Rank 5**
 * 2018  Informs  Hackathon  –  Develop  smart  healthcare  app  with  computer  vision
-* TBrain  machine  learning  competition  –  Malware  identification  without  file
-* Kaggle  machine  learning  competition  –  New  York  taxi  price  prediction
-* TBrain  machine  learning  competition    –  Travel  order  cancel  prediction
 
 ***
 
@@ -155,4 +151,4 @@ Tutor Assistant Experience
 
 ***
 
-Last update time : 2019/06/16
+Last update time : 2019/07/01
