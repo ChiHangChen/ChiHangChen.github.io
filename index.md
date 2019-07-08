@@ -81,8 +81,12 @@ Tutor Assistant Experience
 
 ## **Industry-University Cooperative Research Project**
 
+* 2019/07-2019/07
+: *Object detection for PCB manufacturing process*<br>
+  `Use object detection methods to count WIP amount for scheduling.`
+
 * 2019/05-2019/05
-: *Consultant*
+: *Consultant*<br>
   `Advisor for data analysis and procedure improvement.`
 
 * 2018/11-2019/05
@@ -151,4 +155,4 @@ Tutor Assistant Experience
 
 ***
 
-Last update time : 2019/07/02
+Last update time : 2019/07/08
