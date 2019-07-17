@@ -159,7 +159,6 @@ Title           | Discription    |Link
 **FiveInRow_AI**|Gomoku  AI  :  Using  PTT  chess  playbook  and  deep  learning  develop  Gomoku  AI|[*shinyapps.io*](https://chihangchen.shinyapps.io/FiveInRow_AI/)
 **namecard_maker**|Generate company name card with python and R|[*private server*](http://chihangdalab.nctu.me:10002/namecard_maker/)
 **MovieTheater**|Using R language and shiny package develop web movie theater|[*shinyapps.io*](https://chihangchen.shinyapps.io/MovieTheater/)
-**Object_Detection_Rice**|Object detection for rice detection and classification|[*GitHub*](https://github.com/ChiHangChen/Object_Detection_Rice)
 
 ***
 
