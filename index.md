@@ -126,15 +126,15 @@ Tutor Assistant Experience
 ## **Certification and Training**
 
 * TOEIC **875**
-* Big Data Analysis - Using SparkR, Institute for Information Industry
-* Web Application design using R and Shiny, Institute for Information Industry
+* Big Data Analysis - Using SparkR ***Institute for Information Industry***
+* Web Application design using R and Shiny ***Institute for Information Industry***
 
 ***
 ## **Other  Experience  **
 
-* Ministry  of  Science  and  Technology  AI  Center  Project  Launch  Meeting  -  Assisting  in  event  planning  and  planning	**2018/03**
+* Ministry  of  Science  and  Technology  AI  Center  Project  Launch  Meeting  -  Assisting  in  event  planning  and  preparation **2018/03**
 * The  20th  Decision  Analysis  Conference  -  Assisting  in  event  planning  and  preparation	**2017/01**
-* 2016  International  Symposium  on  Semiconductor  Manufacturing  Intelligence  (ISMI2016)  -  Assisting  in  event  planning  and  preparation	**2016/08**
+* 2016  International  Symposium  on  Semiconductor  Manufacturing  Intelligence  (ISMI2016)  -  Assisting  in  event  planning  and  preparation **2016/08**
 * Student  Association  of  statistics  Department  of  national  Cheng-Chi  university  -  Sport  Officer　**2015/02-2015/06**
 * The  2nd  Statistic  Camp  of  National  Chengchi  University  -  Event  Planning **2013/06-2013/07**
 * Team leader of volley ball team of Department of Statistics of National Cheng Chi  University **2013/06-2015/02**
@@ -163,4 +163,4 @@ Title           | Discription    |Link
 
 ***
 
-Last update time : 2019/07/08
+Last update time : 2019/07/17
