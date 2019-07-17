@@ -46,9 +46,8 @@ Tutor Assistant Experience
 
  - Data  collection,  analysis,  report
  - System  development
- - Client development
- - Cooperate  with  customers  to  solve  problems  by  using  data  analysis
- - Analysis consultant
+ - Analysis service
+ - Manufacturing solution developmnt
 
 2017/07 - 2017/08　![ase](img/ase.png){width=40px}
 : **Advanced Semiconductor Engineering, Taoyuan, Taiwan : ** *Intern*　　
@@ -80,6 +79,11 @@ Tutor Assistant Experience
 ***
 
 ## **Industry-University Cooperative Research Project**
+
+* 2019/04-2019/08
+: *Productivity assessment of steel making provess*
+  `Evaluate productivity by predict machine failure using machine learning technique.`
+
 
 * 2019/07-2019/07
 : *Object detection for PCB manufacturing process*<br>
@@ -136,22 +140,26 @@ Tutor Assistant Experience
 * Team leader of volley ball team of Department of Statistics of National Cheng Chi  University **2013/06-2015/02**
 
 ***
+## **Network communications**
+Title           | Discription    |Link
+----------------|----------------|----------------
+**How to publish a R package to CRAN**|Experience shareing of publish a R package|[*Medium*](https://medium.com/@jim71183/how-to-publish-a-r-package-to-cran-e48f6d6dba18)
+**Stackoverflow**|125K people reached|[*stackoverflow*](https://stackoverflow.com/users/7155684/jim-chen)
+
+***
 
 ## **Side Project**
-
- - Object detection for rice classification - construct with LEGO brick : [GitHub](https://github.com/ChiHangChen/Object_Detection_Rice)
- - Web chatting room hide behind Stackoverflow interface : *[shinyapps.io](https://chihangchen.shinyapps.io/ShinyChat/)*
- - R  language  package  :  [KeyboardSimulator](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)
-![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
-![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
- - R  language  package  :  [SRTtools](https://cran.r-project.org/web/packages/SRTtools/index.html)
-![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/SRTtools)
-![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/SRTtools)
- - Using  computer  vision  play  mobile  game  automatically. *[GitHub](https://github.com/ChiHangChen/MapleStoryM-AutoQuest)*
- - Minitab  RSM  analysis  module  development  using  R  language. *[shinyapps.io](https://chihangchen.shinyapps.io/Minitab-RSM-in-R/)*
- - Gomoku  AI  :  Using  PTT  chess  playbook  and  deep  learning  develop  Gomoku  AI. *[shinyapps.io](https://chihangchen.shinyapps.io/FiveInRow_AI/)*
- - Generate company name card with python and R. *[private server](http://chihangdalab.nctu.me:10002/namecard_maker/)*
- - Using R language and shiny package develop web movie theater. *[shinyapps.io](https://chihangchen.shinyapps.io/MovieTheater/)*
+Title           | Discription    |Link
+----------------|----------------|----------------
+**SRTtools**|A R language package for adjust srt files|[*SRTtools*](https://cran.r-project.org/web/packages/SRTtools/index.html)<br>![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/SRTtools)<br>![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/SRTtools)
+**KeyboardSimulator**|A R language package for simulate keyboard input, developed in C++|[*KeyboardSimulator*](https://cran.r-project.org/web/packages/KeyboardSimulator/index.html)<br>![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)<br>![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
+**ShinyChat**|A web chatting room develope in R shiny hidden behind stackoverflow interface|[*shinyapps.io*](https://chihangchen.shinyapps.io/ShinyChat/)
+**MapleStoryM-AutoQuest**|Using  computer  vision  play  mobile  game  automatically|[*GitHub*](https://github.com/ChiHangChen/MapleStoryM-AutoQuest)
+**Minitab-RSM-in-R**|Minitab  RSM  analysis  module  development  using  R  language|[*shinyapps.io*](https://chihangchen.shinyapps.io/Minitab-RSM-in-R/)
+**FiveInRow_AI**|Gomoku  AI  :  Using  PTT  chess  playbook  and  deep  learning  develop  Gomoku  AI|[*shinyapps.io*](https://chihangchen.shinyapps.io/FiveInRow_AI/)
+**namecard_maker**|Generate company name card with python and R|[*private server*](http://chihangdalab.nctu.me:10002/namecard_maker/)
+**MovieTheater**|Using R language and shiny package develop web movie theater|[*shinyapps.io*](https://chihangchen.shinyapps.io/MovieTheater/)
+**Object_Detection_Rice**|Object detection for rice detection and classification|[*GitHub*](https://github.com/ChiHangChen/Object_Detection_Rice)
 
 ***
 
