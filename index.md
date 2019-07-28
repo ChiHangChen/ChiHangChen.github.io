@@ -162,4 +162,42 @@ Title           | Discription    |Link
 
 ***
 
-Last update time : 2019/07/19
+## **Autobiography**
+
+
+　我叫陳紀航，來自桃園市龜山區，大學畢業於國立政治大學統計學系，研究所畢業於國立清華大學工業工程與工程管理學系，師承簡禎富老師。
+
+　研究所期間，真正認知到自己有寫程式的興趣和能力，期間也參與過許多產學合作專案，研究興趣為資料科學和Machine  learning的應用，以實際解決產業問題。在學期間，相對於一般學界以練「兵」為本培育學梓，簡禎富老師更以練「將」為本訓練我們，除了學習技術和方法之外，更要能獨立思考，找出企業真正的問題所在，以用最適合的方法解決問題。
+
+　我也喜歡在閒暇之餘參與各種分析競賽，以及透過自己本身的分析和程式能力開發私人專案，以解決生活上的各種問題。在專案執行過程中，除了主管交代的事項以外，我更會去思考合作廠商的需求以及專案進行過程中尚未被討論到問題，提前一步思考解決方案並執行，同時，我也都抱著「今日事、今日畢」的態度看待工作，因此我的做事效率常受團隊成員稱讚。
+
+　除了工作上會用到的技能之外，我還喜歡閱讀大量文章吸收新知並嘗試實作，或是將學到的技術開發成生活上可以應用的小工具，並不吝於分享我的知識和技能於stackoverflow、Medium、Facebook社團或Github等社交圈，如此一來，透過其他同好們給予的回饋，也可知道自己的不足，達到教學相長的目的。
+
+　綜和以上所述，我的競爭優勢可歸類於以下：
+1.  熟悉各種機器學習的工具和方法，並具備獨立思考的能力，以挑選最適合的方法解決問題。
+2.  具有獨立自主的學習能力和程式能力，同時持續吸收最新的技術和時事，以持續精進自己的個人能力。
+3.  良好的工作態度和執行效率，並能在團隊合作中有良好的溝通和領導能力。
+  
+　自己的人生目標是希望可以成為改變世界的一份子，例如電影「一級玩家」中開發出整個虛擬世界的創世神Halliday，或是影集「疑犯追蹤」裡面的Harold  Finch，他們的共通點為透過超凡的程式能力改變世界，因此我也持續鞭策自己，朝他們以及那些相同領域但比我還更厲害的菁英們看齊，以追上他們的腳步。
+
+　上述的人生目標只是為了滿足自己的成就感，因此，成就感也成為能夠吸引我的職缺的最大誘因，期望在這樣的工作環境下，能夠為貴公司貢獻所長，並持續提升自己，往自己的人生目標邁進。
+
+
+My  name  is  Jim,  come  from  Taoyuan  City,    I  got  my  bachelor  degree  in  department  of  statistics  at  National  ChengChi  University,  and  master  degree  in  department  of  Industrial  Engineering  and  Engineering  at  National  TsingHua  University.
+
+During  my  time  at  TsingHua  University,  I  realized  that  I  have  interest  and  ability  in  programming,  I  also  participated  in  several  Industry-University  cooperative  research  projects,  my  research  interest  is  applications  of  data  science  and  machine  learning  for  solving  practical  problems.  My  advisor,  professor  Chien,  aims  training  us  for  being  a  leader,  rather  than  a  follower  or  executer,  so,  in  addition  to  learning  methodology  and  technology,  independent  thinking  is  also  a  must  ability.
+
+In  the  process  of  project  implementation,  in  addition  to  those  errands  that  supervisor  asked  for,  I  will  also  think  further  about  the  needs  of  the  clients  or  potential  issues  that  have  not  been  discussed  in  the  process  of  the  project  and  propose  the  solutions  in  advance,  meanwhile,  I  have  never  ever  left  the  undone  work  to  the  next  day,  so  I  can  keep  in  high  working  efficiency.
+
+Besides  conducted  Industry-University  cooperative  research  project  to  put  the  theory  into  practice  effectively,  I  also  participate  in  several  data  analysis  competitions  and  doing  side  projects  during  my  spare  time.  I  also  love  to  read  articles  to  make  sure  my  knowledge  is  up  to  date,  or  use  those  techniques  I  learned  to  develop  some  widgets  for  routine  works.  Sharing  my  experience  or  my  projects  to  communities  such  as  Facebook,  Medium,  StackOverflow  or  Github  are  also  good  ways  for  learning  from  other  elites.
+
+As  a  conclusion  of  above,  my  advantage  can  be  categorized  as  the  following:  
+1.  Familiar  with  machine  learning  tools  and  methodologies,  also  possess  the  ability  of  independent  thinking,  so  I  can  choose  the  proper  ways  or  methods  to  solve  the  problem.
+2.  Ability  of  programming  and  self-learning,  also  learning  the  latest  technology  and  current  affairs  for  enhancing  individual  ability  continuously.
+3.  High  working  efficiency  and  positive  attitude,  also  good  at  communication  and  leadership  in  teamwork.
+
+My  career  goal  is  to  be  one  of  the  people  who  change  the  world,  such  as  Halliday  who  create  a  whole  virtual  world  in  the  movie  "Ready  Player  One",  or  Harold  Finch  in  TV  series  "Person  of  Interest",  they  share  one  thing  in  common,  which  is  "changing  the  world  by  extraordinary  programming  ability",    that's  the  motivation  for  me  to  urge  my  self  to  catch  up  those  people  who  are  in  the  same  field  with  me  but  better.
+
+The  gaol  above  is  for  satisfying  my  sense  of  achievement,  therefore,  sense  of  achievement  becomes  the  greatest  inducement  for  me  for  seeking  a  job,  I  expect  under  such  a  working  environment,  I  can  contribute  my  strength  for  you,  and  keep  improving  my  self  to  get  closer  to  my  career  goal.
+
+***Last update time : 2019/07/28***
