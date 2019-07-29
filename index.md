@@ -140,7 +140,7 @@ Tutor Assistant Experience
 * Team leader of volley ball team of Department of Statistics of National Cheng Chi  University **2013/06-2015/02**
 
 ***
-## **Network communications**
+## **Community Sharing**
 Title           | Discription    |Link
 ----------------|----------------|----------------
 **How to publish a R package to CRAN**|Experience shareing of publish a R package|[*Medium*](https://medium.com/@jim71183/how-to-publish-a-r-package-to-cran-e48f6d6dba18)
