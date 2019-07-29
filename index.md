@@ -81,7 +81,7 @@ Tutor Assistant Experience
 ## **Industry-University Cooperative Research Project**
 
 * 2019/04-2019/08
-: *Productivity assessment of steel making provess*
+: *Productivity assessment of steel making process*
   `Evaluate productivity by predict machine failure using machine learning technique.`
 
 
@@ -200,4 +200,4 @@ My  career  goal  is  to  be  one  of  the  people  who  change  the  world,  su
 
 The  gaol  above  is  for  satisfying  my  sense  of  achievement,  therefore,  sense  of  achievement  becomes  the  greatest  inducement  for  me  for  seeking  a  job,  I  expect  under  such  a  working  environment,  I  can  contribute  my  strength  for  you,  and  keep  improving  my  self  to  get  closer  to  my  career  goal.
 
-***Last update time : 2019/07/28***
+***Last update time : 2019/07/29***
