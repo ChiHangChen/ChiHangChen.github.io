@@ -116,7 +116,7 @@ Tutor Assistant Experience
 ## **Academic Achievement & Competition Experience**
 
 * 2018 T-Brain Machine Learning Competition - 旅遊訂單成行預測 Travel order forecast
-**Rank 43 (Top 6%) **
+**Rank 43 (Top 5%) **
 
 * 2018  National  Smart  Manufacturing  and  Big  Data  Analysis  Competition
 **Start  up  group : Rank  2**
@@ -203,4 +203,4 @@ My  career  goal  is  to  be  one  of  the  people  who  change  the  world,  su
 
 The  gaol  above  is  for  satisfying  my  sense  of  achievement,  therefore,  sense  of  achievement  becomes  the  greatest  inducement  for  me  for  seeking  a  job,  I  expect  under  such  a  working  environment,  I  can  contribute  my  strength  for  you,  and  keep  improving  my  self  to  get  closer  to  my  career  goal.
 
-***Last update time : 2019/07/29***
+***Last update time : 2019/08/02***
