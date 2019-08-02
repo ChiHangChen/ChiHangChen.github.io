@@ -115,6 +115,9 @@ Tutor Assistant Experience
 
 ## **Academic Achievement & Competition Experience**
 
+* 2018 T-Brain Machine Learning Competition - 旅遊訂單成行預測 Travel order forecast
+**Rank 43 (Top 6%) **
+
 * 2018  National  Smart  Manufacturing  and  Big  Data  Analysis  Competition
 **Start  up  group : Rank  2**
 * 2018  Thesis  Competition  of  College  of  Engineering  of  National  Tsing-Hua  University  -  Apply  Intelligent  Agent  in  Manufacturing  Parameter  Optimization  and  Empirical  Study-Cases  Study  of  Precision  Forming  and  IC  Packaging  Process **Honorable  mention**
