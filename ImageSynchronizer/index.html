@@ -13079,8 +13079,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1><p>ImageSynchronizer is an image dataset management project.</p>
 <p>We strongly advise users use <a href="https://jupyter.org/">Jupyter Notebook</a> to run the following examples, which can display <a href="https://pandas.pydata.org/">pandas</a> datasets information neater.</p>
-<h4 id="Installation">Installation<a class="anchor-link" href="#Installation">&#182;</a></h4><p>Download the package from this <a href="https://ulsee01-my.sharepoint.com/:u:/g/personal/jim_chen_ulsee_com/EXJclaGq-vZKl2VPW55_PSIBsK48HuluaWQ3wz4IQCLWGQ?e=1NaLAr"><b>link</b></a>(ULSee mail only).</p><p><code>sudo apt-get install unixodbc-dev</code></p><p><code>sudo python setup.py install</code></p>
-<h4 id="How-ImageSynchronizer-work?">How ImageSynchronizer work?<a class="anchor-link" href="#How-ImageSynchronizer-work?">&#182;</a></h4><p><img src="./imgs/demo.png" alt=""></p>
+<h2 id="Installation">Installation<a class="anchor-link" href="#Installation">&#182;</a></h2><h3 id="Linux-only">Linux only<a class="anchor-link" href="#Linux-only">&#182;</a></h3><h4 id="Install-Microsft-ODBC-driver-for-Linux"><a href="https://docs.microsoft.com/zh-tw/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver15">Install Microsft ODBC driver for Linux</a><a class="anchor-link" href="#Install-Microsft-ODBC-driver-for-Linux">&#182;</a></h4><p><code>python setup.py install</code></p>
+<h3 id="How-ImageSynchronizer-work?">How ImageSynchronizer work?<a class="anchor-link" href="#How-ImageSynchronizer-work?">&#182;</a></h3><p><img src="./imgs/demo.png" alt=""></p>
 
 </div>
 </div>
@@ -13103,7 +13103,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Format-:">Format :<a class="anchor-link" href="#Format-:">&#182;</a></h3><p><font color="#dd0000"><b>A</b></font> _ <font color="#00dd00"><b>B</b></font> _ <font color="#0000dd"><b>C</b></font> _ <font color="#ffaa00"><b>D</b></font></p>
+<h3 id="Format-:">Format :<a class="anchor-link" href="#Format-:">&#182;</a></h3><p><font color="#dd0000"><b>A_</b></font><font color="#00dd00"><b>B_</b></font><font color="#0000dd"><b>C_</b></font><font color="#ffaa00"><b>D</b></font></p>
 <p><br></p>
 <p><font color="#dd0000"></p>
 <ul>
@@ -13121,7 +13121,7 @@ div#notebook {
 <ul>
 <li>Original dataset : The date that dataset uploaded to ImageSynchronizer databse.</li>
 <li>Opensource dataset : The dataset name.
-</li>
+&lt;/font&gt;</li>
 </ul>
 </li>
 </ul>
@@ -13131,7 +13131,7 @@ div#notebook {
 <ul>
 <li>The image type of this dataset, it might be one of the following :</li>
 <li>rgb, dvs, fisheye, dewarp
-</li>
+&lt;/font&gt;</li>
 </ul>
 </li>
 </ul>
@@ -13144,7 +13144,7 @@ div#notebook {
 <li>clf   : Classification</li>
 <li>rbbox : Rotated bounding box (bounding box with angle)</li>
 <li>poly  : Polygon
-<br>
+&lt;/font&gt;<br>
 ※ Each labeling type has its own json annotation format.</li>
 </ol>
 </li>
