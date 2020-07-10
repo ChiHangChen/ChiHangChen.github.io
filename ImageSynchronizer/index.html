@@ -13717,6 +13717,9 @@ Connecting to data storage...
 <span class="n">sync</span><span class="o">.</span><span class="n">update_subscription</span><span class="p">(</span><span class="n">target_path</span> <span class="o">=</span> <span class="s2">&quot;./test&quot;</span><span class="p">)</span>
 <span class="c1"># This procesdure may take few hours, depends on the internet speed and dataset size.</span>
 <span class="c1"># Note : This function only sync those image that not included in target_path..</span>
+
+<span class="c1"># You can also specify the amount of image to subscript incase the dataset is too large</span>
+<span class="n">sync</span><span class="o">.</span><span class="n">update_subscription</span><span class="p">(</span><span class="n">target_path</span> <span class="o">=</span> <span class="s2">&quot;./test&quot;</span><span class="p">,</span> <span class="n">amount</span> <span class="o">=</span> <span class="mi">50</span><span class="p">)</span>
 </pre></div>
 
     </div>
