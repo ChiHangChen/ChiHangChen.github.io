@@ -10,5 +10,17 @@
 	<atom:link href="https://chihangchen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>About Me</title>
+      <link>https://chihangchen.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/about/</guid>
+      <description>Introduction Jim is a machine learning engineer with 4 years experience in machine learning, data science and deep learning. He is a great self-learner, team worker, and always stay hungry for various technologies.
+He likes solving tiny problems use his programming ability and share as a side project on GitHub to help people encountered same problem.
+He is naive to hope someday he can change the world like :
+ James Halliday in the movie &amp;ldquo;Ready Player One&amp;rdquo; who created a virtual world called &amp;ldquo;Oasis&amp;rdquo;.</description>
+    </item>
+    
   </channel>
 </rss>
