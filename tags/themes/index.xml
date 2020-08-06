@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>themes on Chi-Hang Chen</title>
+    <link>https://chihangchen.github.io/tags/themes/</link>
+    <description>Recent content in themes on Chi-Hang Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chihangchen.github.io/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在GCP上架設永久免費的 ShinyServer</title>
+      <link>https://chihangchen.github.io/posts/gcp-shiny-server/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/posts/gcp-shiny-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[論文筆記] MobileNet演變史-從MobileNetV1到MobileNetV3</title>
+      <link>https://chihangchen.github.io/posts/mobilenetv3/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/posts/mobilenetv3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ImageSynchronizer</title>
+      <link>https://chihangchen.github.io/projects/imagesynchronizer/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/projects/imagesynchronizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[競賽筆記] 2020 Microsoft&amp;TSMC Careerhack</title>
+      <link>https://chihangchen.github.io/posts/careerhack/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/posts/careerhack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to publish an R package to CRAN</title>
+      <link>https://chihangchen.github.io/posts/r2cran/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/posts/r2cran/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

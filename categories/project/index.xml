@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on Chi-Hang Chen</title>
+    <link>https://chihangchen.github.io/categories/project/</link>
+    <description>Recent content in project on Chi-Hang Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chihangchen.github.io/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ImageSynchronizer</title>
+      <link>https://chihangchen.github.io/projects/imagesynchronizer/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/projects/imagesynchronizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R package - SRTtools</title>
+      <link>https://chihangchen.github.io/projects/srttools/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/projects/srttools/</guid>
+      <description>Introduction to SRTtools SRTtools is a R package that can simply adjst subtitles time, style and position for srt file.
+ Package Setup install.packages(&amp;#34;SRTtools&amp;#34;) library(SRTtools)  Examples Read srt file srt_path &amp;lt;- system.file(&amp;#34;extdata&amp;#34;, &amp;#34;movie.srt&amp;#34;, package=&amp;#34;SRTtools&amp;#34;) srt &amp;lt;- srt.read(srt_path) &amp;gt; srt [1] &amp;#34;1&amp;#34; &amp;#34;00:00:25,525 --&amp;gt; 00:00:29,904&amp;#34; [3] &amp;#34;&amp;lt;i&amp;gt;This is the Asgardian&amp;#34; &amp;#34;refugee vessel &amp;lt;/i&amp;gt;Statesman&amp;lt;i&amp;gt;.&amp;lt;/i&amp;gt;&amp;#34; [5] &amp;#34;&amp;#34; &amp;#34;2&amp;#34; [7] &amp;#34;00:00:32,657 --&amp;gt; 00:00:36,119&amp;#34; &amp;#34;&amp;lt;i&amp;gt;We are under assault.&amp;#34; Postpone subtitles 0.5 seconds later srt_later &amp;lt;- srt.</description>
+    </item>
+    
+    <item>
+      <title>R package - KeyboardSimulator</title>
+      <link>https://chihangchen.github.io/projects/keyboard-simulator/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/projects/keyboard-simulator/</guid>
+      <description>Introduction to KeyboardSimulator KeyboardSimulator is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.
+This package provide 6 functions which are developed in C++:
+ keybd.press() Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using + as separator. keybd.release() Simulate the release of keyboard keys held by keybd.press. keybd.type_string() Type a string with simulated keyboard input. mouse.</description>
+    </item>
+    
+  </channel>
+</rss>

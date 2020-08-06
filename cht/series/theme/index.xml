@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on 陳紀航</title>
+    <link>https://chihangchen.github.io/cht/series/theme/</link>
+    <description>Recent content in Theme on 陳紀航</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chihangchen.github.io/cht/series/theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R 語言套件 - SRTtools</title>
+      <link>https://chihangchen.github.io/cht/projects/srttools/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/cht/projects/srttools/</guid>
+      <description>簡介 R 語言套件 SRTtools 可以調整副檔名為srt的影片字幕檔的時間軸、樣式和位置。
+ 套件安裝 install.packages(&amp;#34;SRTtools&amp;#34;) library(SRTtools)  範例 讀取srt檔案 srt_path &amp;lt;- system.file(&amp;#34;extdata&amp;#34;, &amp;#34;movie.srt&amp;#34;, package=&amp;#34;SRTtools&amp;#34;) srt &amp;lt;- srt.read(srt_path) &amp;gt; srt [1] &amp;#34;1&amp;#34; &amp;#34;00:00:25,525 --&amp;gt; 00:00:29,904&amp;#34; [3] &amp;#34;&amp;lt;i&amp;gt;This is the Asgardian&amp;#34; &amp;#34;refugee vessel &amp;lt;/i&amp;gt;Statesman&amp;lt;i&amp;gt;.&amp;lt;/i&amp;gt;&amp;#34; [5] &amp;#34;&amp;#34; &amp;#34;2&amp;#34; [7] &amp;#34;00:00:32,657 --&amp;gt; 00:00:36,119&amp;#34; &amp;#34;&amp;lt;i&amp;gt;We are under assault.&amp;#34; 讓字幕時間軸延遲0.5秒 srt_later &amp;lt;- srt.shift(srt, time_shifted = 0.5) &amp;gt; srt_later [1] &amp;#34;1&amp;#34; &amp;#34;00:00:26,025 --&amp;gt; 00:00:30,404&amp;#34; [3] &amp;#34;&amp;lt;i&amp;gt;This is the Asgardian&amp;#34; &amp;#34;refugee vessel &amp;lt;/i&amp;gt;Statesman&amp;lt;i&amp;gt;.&amp;lt;/i&amp;gt;&amp;#34; [5] &amp;#34;&amp;#34; &amp;#34;2&amp;#34; [7] &amp;#34;00:00:33,157 --&amp;gt; 00:00:36,618&amp;#34; &amp;#34;&amp;lt;i&amp;gt;We are under assault.</description>
+    </item>
+    
+    <item>
+      <title>R 語言套件 - KeyboardSimulator</title>
+      <link>https://chihangchen.github.io/cht/projects/keyboard-simulator/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/cht/projects/keyboard-simulator/</guid>
+      <description>Introduction to KeyboardSimulator R 套件 KeyboardSimulator 可讓您透過簡單的R function模擬實體鍵盤輸入、滑鼠移動和滑鼠點擊。
+本套件提供 6 個以 C++ 為基礎的 function:
+ keybd.press() 模擬鍵盤輸入. 如果要同時按下多個案件可用 + 做區隔。 keybd.release() 放開透過 keybd.press function所按下的鍵盤按鈕。 keybd.type_string() 透過模擬鍵盤輸入來輸入字串。 mouse.click() 模擬滑鼠左右鍵點擊。 mouse.release() 放開透過 mouse.click function所按下的滑鼠按鈕。 mouse.get_cursor() 取得當下的滑鼠座標。 mouse.move() 模擬滑鼠移動。  所有支援的鍵盤按鈕可參考套件中的 keyboard_value 變數。
+ FAQ KeyboardSimulator 是否支援除了 Windows 以外的作業系統? 不行, KeyboardSimulator 是以 Windows API 為基礎所寫的，因此無法適用於其他作業系統。
+套件有問題怎麼辦? 請在 GitHub 上面新增一個 issue 或透過 Email 聯絡我們，我們會盡快給您回覆。
+ 套件安裝 install.packages(&amp;#34;KeyboardSimulator&amp;#34;) library(KeyboardSimulator) or
+if (!require(&amp;#34;devtools&amp;#34;)) install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;ChiHangChen/KeyboardSimulator&amp;#34;) library(KeyboardSimulator)  使用範例 模擬鍵盤輸入  按下單一按鍵  keybd.</description>
+    </item>
+    
+  </channel>
+</rss>

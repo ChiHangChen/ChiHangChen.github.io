@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="cht">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="cht">
+
+    <meta name="author" content="陳紀航">
+    <meta name="description" content="Introduction to KeyboardSimulator R 套件 KeyboardSimulator 可讓您透過簡單的R function模擬實體鍵盤輸入、滑鼠移動和滑鼠點擊。
+本套件提供 6 個以 C&#43;&#43; 為基礎的 function:
+ keybd.press() 模擬鍵盤輸入. 如果要同時按下多個案件可用 &#43; 做區隔。 keybd.release() 放開透過 keybd.press function所按下的鍵盤按鈕。 keybd.type_string() 透過模擬鍵盤輸入來輸入字串。 mouse.click() 模擬滑鼠左右鍵點擊。 mouse.release() 放開透過 mouse.click function所按下的滑鼠按鈕。 mouse.get_cursor() 取得當下的滑鼠座標。 mouse.move() 模擬滑鼠移動。  所有支援的鍵盤按鈕可參考套件中的 keyboard_value 變數。
+ FAQ KeyboardSimulator 是否支援除了 Windows 以外的作業系統? 不行, KeyboardSimulator 是以 Windows API 為基礎所寫的，因此無法適用於其他作業系統。
+套件有問題怎麼辦? 請在 GitHub 上面新增一個 issue 或透過 Email 聯絡我們，我們會盡快給您回覆。
+ 套件安裝 install.packages(&#34;KeyboardSimulator&#34;) library(KeyboardSimulator) or
+if (!require(&#34;devtools&#34;)) install.packages(&#34;devtools&#34;) devtools::install_github(&#34;ChiHangChen/KeyboardSimulator&#34;) library(KeyboardSimulator)  使用範例 模擬鍵盤輸入  按下單一按鍵  keybd.">
+    <meta name="keywords" content="">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="R 語言套件 - KeyboardSimulator"/>
+<meta name="twitter:description" content="Introduction to KeyboardSimulator R 套件 KeyboardSimulator 可讓您透過簡單的R function模擬實體鍵盤輸入、滑鼠移動和滑鼠點擊。
+本套件提供 6 個以 C&#43;&#43; 為基礎的 function:
+ keybd.press() 模擬鍵盤輸入. 如果要同時按下多個案件可用 &#43; 做區隔。 keybd.release() 放開透過 keybd.press function所按下的鍵盤按鈕。 keybd.type_string() 透過模擬鍵盤輸入來輸入字串。 mouse.click() 模擬滑鼠左右鍵點擊。 mouse.release() 放開透過 mouse.click function所按下的滑鼠按鈕。 mouse.get_cursor() 取得當下的滑鼠座標。 mouse.move() 模擬滑鼠移動。  所有支援的鍵盤按鈕可參考套件中的 keyboard_value 變數。
+ FAQ KeyboardSimulator 是否支援除了 Windows 以外的作業系統? 不行, KeyboardSimulator 是以 Windows API 為基礎所寫的，因此無法適用於其他作業系統。
+套件有問題怎麼辦? 請在 GitHub 上面新增一個 issue 或透過 Email 聯絡我們，我們會盡快給您回覆。
+ 套件安裝 install.packages(&#34;KeyboardSimulator&#34;) library(KeyboardSimulator) or
+if (!require(&#34;devtools&#34;)) install.packages(&#34;devtools&#34;) devtools::install_github(&#34;ChiHangChen/KeyboardSimulator&#34;) library(KeyboardSimulator)  使用範例 模擬鍵盤輸入  按下單一按鍵  keybd."/>
+
+    <meta property="og:title" content="R 語言套件 - KeyboardSimulator" />
+<meta property="og:description" content="Introduction to KeyboardSimulator R 套件 KeyboardSimulator 可讓您透過簡單的R function模擬實體鍵盤輸入、滑鼠移動和滑鼠點擊。
+本套件提供 6 個以 C&#43;&#43; 為基礎的 function:
+ keybd.press() 模擬鍵盤輸入. 如果要同時按下多個案件可用 &#43; 做區隔。 keybd.release() 放開透過 keybd.press function所按下的鍵盤按鈕。 keybd.type_string() 透過模擬鍵盤輸入來輸入字串。 mouse.click() 模擬滑鼠左右鍵點擊。 mouse.release() 放開透過 mouse.click function所按下的滑鼠按鈕。 mouse.get_cursor() 取得當下的滑鼠座標。 mouse.move() 模擬滑鼠移動。  所有支援的鍵盤按鈕可參考套件中的 keyboard_value 變數。
+ FAQ KeyboardSimulator 是否支援除了 Windows 以外的作業系統? 不行, KeyboardSimulator 是以 Windows API 為基礎所寫的，因此無法適用於其他作業系統。
+套件有問題怎麼辦? 請在 GitHub 上面新增一個 issue 或透過 Email 聯絡我們，我們會盡快給您回覆。
+ 套件安裝 install.packages(&#34;KeyboardSimulator&#34;) library(KeyboardSimulator) or
+if (!require(&#34;devtools&#34;)) install.packages(&#34;devtools&#34;) devtools::install_github(&#34;ChiHangChen/KeyboardSimulator&#34;) library(KeyboardSimulator)  使用範例 模擬鍵盤輸入  按下單一按鍵  keybd." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chihangchen.github.io/cht/projects/keyboard-simulator/" />
+<meta property="article:published_time" content="2018-07-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-07-10T00:00:00+00:00" /><meta property="og:site_name" content="陳紀航" />
+
+
+
+
+    
+      <base href="https://chihangchen.github.io/cht/projects/keyboard-simulator/">
+    
+    <title>
+  R 語言套件 - KeyboardSimulator · 陳紀航
+</title>
+
+    
+      <link rel="canonical" href="https://chihangchen.github.io/cht/projects/keyboard-simulator/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://chihangchen.github.io/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://chihangchen.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://chihangchen.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.74.3" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://chihangchen.github.io/cht">
+      陳紀航
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/cht/about/">關於我</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/cht/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/cht/projects/">專案</a>
+          </li>
+        
+      
+      
+        
+        
+        
+          
+            
+              <li class="navigation-item menu-separator">
+                <span>|</span>
+              </li>
+              
+            
+            <li class="navigation-item">
+              <a href="https://chihangchen.github.io/projects/keyboard-simulator/">English</a>
+            </li>
+          
+        
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>R 語言套件 - KeyboardSimulator</h1>
+    </header>
+
+    <h1 id="introduction-to-keyboardsimulator"><strong>Introduction to KeyboardSimulator</strong></h1>
+<p><img src="https://img.shields.io/badge/CRAN-2.5.0-brightgreen" alt="CRAN">
+<img src="https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator" alt="CRAN\_Status\_Badge"></p>
+<p>R 套件 <code>KeyboardSimulator</code> 可讓您透過簡單的R function模擬實體鍵盤輸入、滑鼠移動和滑鼠點擊。</p>
+<p>本套件提供 6 個以 C++ 為基礎的 function:</p>
+<ul>
+<li><code>keybd.press()</code> 模擬鍵盤輸入. 如果要同時按下多個案件可用 <code>+</code> 做區隔。</li>
+<li><code>keybd.release()</code> 放開透過 <code>keybd.press</code> function所按下的鍵盤按鈕。</li>
+<li><code>keybd.type_string()</code> 透過模擬鍵盤輸入來輸入字串。</li>
+<li><code>mouse.click()</code> 模擬滑鼠左右鍵點擊。</li>
+<li><code>mouse.release()</code> 放開透過 <code>mouse.click</code> function所按下的滑鼠按鈕。</li>
+<li><code>mouse.get_cursor()</code> 取得當下的滑鼠座標。</li>
+<li><code>mouse.move()</code> 模擬滑鼠移動。</li>
+</ul>
+<p>所有支援的鍵盤按鈕可參考套件中的 <code>keyboard_value</code> 變數。</p>
+<hr>
+<h2 id="faq"><strong>FAQ</strong></h2>
+<h3 id="keyboardsimulator-是否支援除了-windows-以外的作業系統"><code>KeyboardSimulator</code> 是否支援除了 Windows 以外的作業系統?</h3>
+<p>不行, <code>KeyboardSimulator</code> 是以 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/index">Windows API</a> 為基礎所寫的，因此無法適用於其他作業系統。</p>
+<h3 id="套件有問題怎麼辦">套件有問題怎麼辦?</h3>
+<p>請在 <a href="https://github.com/ChiHangChen/KeyboardSimulator">GitHub</a> 上面新增一個 issue 或透過 Email 聯絡我們，我們會盡快給您回覆。</p>
+<hr>
+<h2 id="套件安裝"><strong>套件安裝</strong></h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">install.packages(<span style="font-style:italic">&#34;KeyboardSimulator&#34;</span>)
+library(KeyboardSimulator)
+</code></pre></div><p>or</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">if (!require(<span style="font-style:italic">&#34;devtools&#34;</span>)) install.packages(<span style="font-style:italic">&#34;devtools&#34;</span>)
+devtools::install_github(<span style="font-style:italic">&#34;ChiHangChen/KeyboardSimulator&#34;</span>)
+library(KeyboardSimulator)
+</code></pre></div><hr>
+<h2 id="使用範例"><strong>使用範例</strong></h2>
+<h4 id="模擬鍵盤輸入"><strong>模擬鍵盤輸入</strong></h4>
+<ul>
+<li><strong>按下單一按鍵</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Enter&#34;</span>)
+</code></pre></div><ul>
+<li><strong>按下多個按鈕並用 <code>+</code> 隔開</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Alt+f4&#34;</span>)
+</code></pre></div><ul>
+<li><strong>使用參數 <code>hold=TRUE</code> 持續按壓按鍵和參數 <code>keybd.release</code> 放開按鍵</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Alt&#34;</span>, hold = <span style="font-weight:bold">TRUE</span>)
+keybd.press(<span style="font-style:italic">&#39;Tab&#39;</span>)
+keybd.release(<span style="font-style:italic">&#39;Alt&#39;</span>)
+</code></pre></div><h4 id="模擬滑鼠輸入"><strong>模擬滑鼠輸入</strong></h4>
+<ul>
+<li><strong>取得當下滑鼠座標</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.get_cursor()
+</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Return the x,y coordinate of screen
+[1] 960 540
+</code></pre></div><ul>
+<li><strong>按下滑鼠左鍵或右鍵</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.click()
+mouse.click(<span style="font-style:italic">&#34;right&#34;</span>)
+</code></pre></div><ul>
+<li><strong>將滑鼠移動到 1080 螢幕的正中央</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.move(960, 540)
+</code></pre></div><ul>
+<li><strong>持續三秒內將滑鼠移動到 1080 螢幕的正中央</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.move(960, 540, duration=3)
+</code></pre></div><ul>
+<li><strong>將物件拖移到 1080 螢幕正中央</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.click(button = <span style="font-style:italic">&#34;left&#34;</span>, hold = <span style="font-weight:bold">TRUE</span>)
+mouse.move(960, 540)
+mouse.release()
+</code></pre></div>
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

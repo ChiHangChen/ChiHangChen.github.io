@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Chi-Hang (Jim) Chen">
+    <meta name="description" content="Introduction to KeyboardSimulator KeyboardSimulator is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.
+This package provide 6 functions which are developed in C&#43;&#43;:
+ keybd.press() Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using &#43; as separator. keybd.release() Simulate the release of keyboard keys held by keybd.press. keybd.type_string() Type a string with simulated keyboard input. mouse.">
+    <meta name="keywords" content="">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="R package - KeyboardSimulator"/>
+<meta name="twitter:description" content="Introduction to KeyboardSimulator KeyboardSimulator is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.
+This package provide 6 functions which are developed in C&#43;&#43;:
+ keybd.press() Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using &#43; as separator. keybd.release() Simulate the release of keyboard keys held by keybd.press. keybd.type_string() Type a string with simulated keyboard input. mouse."/>
+
+    <meta property="og:title" content="R package - KeyboardSimulator" />
+<meta property="og:description" content="Introduction to KeyboardSimulator KeyboardSimulator is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.
+This package provide 6 functions which are developed in C&#43;&#43;:
+ keybd.press() Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using &#43; as separator. keybd.release() Simulate the release of keyboard keys held by keybd.press. keybd.type_string() Type a string with simulated keyboard input. mouse." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chihangchen.github.io/projects/keyboard-simulator/" />
+<meta property="article:published_time" content="2018-07-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-07-10T00:00:00+00:00" /><meta property="og:site_name" content="Chi-Hang Chen" />
+
+
+
+
+    
+      <base href="https://chihangchen.github.io/projects/keyboard-simulator/">
+    
+    <title>
+  R package - KeyboardSimulator · Chi-Hang Chen
+</title>
+
+    
+      <link rel="canonical" href="https://chihangchen.github.io/projects/keyboard-simulator/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://chihangchen.github.io/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://chihangchen.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://chihangchen.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://chihangchen.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.74.3" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://chihangchen.github.io/">
+      Chi-Hang Chen
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://chihangchen.github.io/projects/">Projects</a>
+          </li>
+        
+      
+      
+        
+        
+        
+          
+            
+              <li class="navigation-item menu-separator">
+                <span>|</span>
+              </li>
+              
+            
+            <li class="navigation-item">
+              <a href="https://chihangchen.github.io/cht/projects/keyboard-simulator/">繁體中文</a>
+            </li>
+          
+        
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>R package - KeyboardSimulator</h1>
+    </header>
+
+    <h1 id="introduction-to-keyboardsimulator"><strong>Introduction to KeyboardSimulator</strong></h1>
+<p><img src="https://img.shields.io/badge/CRAN-2.5.0-brightgreen" alt="CRAN">
+<img src="https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator" alt="CRAN\_Status\_Badge"></p>
+<p><code>KeyboardSimulator</code> is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.</p>
+<p>This package provide 6 functions which are developed in C++:</p>
+<ul>
+<li><code>keybd.press()</code> Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using <code>+</code> as separator.</li>
+<li><code>keybd.release()</code> Simulate the release of keyboard keys held by <code>keybd.press</code>.</li>
+<li><code>keybd.type_string()</code> Type a string with simulated keyboard input.</li>
+<li><code>mouse.click()</code> Simulate left and right button of mouse clicks.</li>
+<li><code>mouse.release()</code> Simulate the release of mouse button held by <code>mouse.click</code>.</li>
+<li><code>mouse.get_cursor()</code> Get current cursor coordinate of screen.</li>
+<li><code>mouse.move()</code> Move cursor to specific coordinate of screen.</li>
+</ul>
+<p>The supported keys are listed in <code>keyboard_value</code>.</p>
+<hr>
+<h2 id="faq"><strong>FAQ</strong></h2>
+<h3 id="does-keyboardsimulator-support-operating-systems-other-than-windows">Does <code>KeyboardSimulator</code> support operating systems other than Windows?</h3>
+<p>No, <code>KeyboardSimulator</code> is built on top of the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/index">Windows API</a> and is not compatible with other operating systems.</p>
+<h3 id="this-package-doesnt-work-on-my-computer-how-can-i-make-it-work">This package doesn&rsquo;t work on my computer! How can I make it work?</h3>
+<p>Open a <a href="https://github.com/ChiHangChen/KeyboardSimulator">GitHub</a> issue and let us know what version of Windows you are using and what keyboard and mouse hardware you have connected.</p>
+<hr>
+<h2 id="package-setup"><strong>Package Setup</strong></h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">install.packages(<span style="font-style:italic">&#34;KeyboardSimulator&#34;</span>)
+library(KeyboardSimulator)
+</code></pre></div><p>or</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">if (!require(<span style="font-style:italic">&#34;devtools&#34;</span>)) install.packages(<span style="font-style:italic">&#34;devtools&#34;</span>)
+devtools::install_github(<span style="font-style:italic">&#34;ChiHangChen/KeyboardSimulator&#34;</span>)
+library(KeyboardSimulator)
+</code></pre></div><hr>
+<h2 id="examples"><strong>Examples</strong></h2>
+<h4 id="simulate-keyboard-event"><strong>Simulate keyboard event</strong></h4>
+<ul>
+<li><strong>Press single key</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Enter&#34;</span>)
+</code></pre></div><ul>
+<li><strong>Press multiple keys with <code>+</code> as seperator</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Alt+f4&#34;</span>)
+</code></pre></div><ul>
+<li><strong>Hold keys with argument <code>hold=TRUE</code> and use <code>keybd.release</code> to release the held key</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">keybd.press(<span style="font-style:italic">&#34;Alt&#34;</span>, hold = <span style="font-weight:bold">TRUE</span>)
+keybd.press(<span style="font-style:italic">&#39;Tab&#39;</span>)
+keybd.release(<span style="font-style:italic">&#39;Alt&#39;</span>)
+</code></pre></div><h4 id="simulate-mouse-event"><strong>Simulate mouse event</strong></h4>
+<ul>
+<li><strong>Get current location of cursor</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.get_cursor()
+</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Return the x,y coordinate of screen
+[1] 960 540
+</code></pre></div><ul>
+<li><strong>Press mouse button</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.click()
+mouse.click(<span style="font-style:italic">&#34;right&#34;</span>)
+</code></pre></div><ul>
+<li><strong>Move cursor to the center of screen on 1080FHD monitor</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.move(960, 540)
+</code></pre></div><ul>
+<li><strong>Move cursor to the center of screen on 1080FHD monitor within 3 seconds</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.move(960, 540, duration=3)
+</code></pre></div><ul>
+<li><strong>Drag an item to center of screen</strong></li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">mouse.click(button = <span style="font-style:italic">&#34;left&#34;</span>, hold = <span style="font-weight:bold">TRUE</span>)
+mouse.move(960, 540)
+mouse.release()
+</code></pre></div><hr>
+<h2 id="developers"><strong>Developers</strong></h2>
+<h4 id="dependencies"><strong>Dependencies</strong></h4>
+<p>It is highly recommended that you use the <a href="https://www.rstudio.com/products/RStudio/">RStudio IDE</a> to develop this package. In addition to an <a href="https://cran.r-project.org/bin/windows/base/">R installation</a>, you&rsquo;ll also need to <a href="https://cran.r-project.org/bin/windows/Rtools/">install Rtools</a> and a TeX distribution. <a href="https://tug.org/texlive/">TeX Live</a> is a comprehensive distribution that seems to work well.</p>
+<p>Once you have cloned this repository, you&rsquo;ll need to download the build package dependencies. These dependencies are managed with <code>packrat</code> and can be restored by running</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">if (!require(packrat)) install.packages(<span style="font-style:italic">&#34;packrat&#34;</span>)
+packrat::on()
+packrat::restore()
+</code></pre></div><hr>
+<h2 id="documentation"><strong>Documentation</strong></h2>
+<p>The <code>roxygen2</code> R package is used to manage <code>KeyboardSimulator</code>'s documentation. Do not edit any of the files that have a warning comment at the top about manually editing those files!</p>
+<p>You can regenerate package documentation with the RStudio shortcut Ctrl+Shift+Enter, or by running</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">roxygen2::roxygenize()
+</code></pre></div><p>The project is set up to do this whenever building and testing the package.</p>
+<hr>
+<h2 id="other"><strong>Other</strong></h2>
+<ul>
+<li>Put any C/C++/Fortran code in &lsquo;src&rsquo;.</li>
+<li>See <a href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a> for more information.</li>
+</ul>
+
+  </article>
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>
