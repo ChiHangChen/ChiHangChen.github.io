@@ -13112,7 +13112,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Dataset-name-format-:">Dataset name format :<a class="anchor-link" href="#Dataset-name-format-:">&#182;</a></h3><h3 id="*source**name**imtype*_*labeltype*"><span style="color:red">*source*</span><em><span style="color:green">*name*</span></em><span style="color:blue">*imtype*</span>_<span style="color:black">*labeltype*</span><a class="anchor-link" href="#*source**name**imtype*_*labeltype*">&#182;</a></h3><ul>
+<h3 id="Dataset-name-format-:">Dataset name format :<a class="anchor-link" href="#Dataset-name-format-:">&#182;</a></h3><h3 id="sourcenameimtype_labeltype"><span style="color:red">source</span><em><span style="color:green">name</span></em><span style="color:blue">imtype</span>_<span style="color:black">labeltype</span><a class="anchor-link" href="#sourcenameimtype_labeltype">&#182;</a></h3><ul>
 <li><p><strong><span style="color:red">source : Data set source</span></strong></p>
 <ul>
 <li>Original : This dataset is original which is taken by manager.</li>
@@ -13840,31 +13840,41 @@ Synchronization complete!
 
 </div>
 </div>
-</div>{
-  "anno_version": "0.2.0",
-  "label_checked": 1,
-  "height": 264,
-  "width": 263,
-  "depth": 3,
-  "ext": "jpg",
-  "labels": [
-    {
-      "label_type": "clf",
-      "label_name": "Gender",
-      "label": "Female"
-    },
-    {
-      "label_type": "clf",
-      "label_name": "Emotion",
-      "label": "Happiness"
-    },
-    {
-      "label_type": "reg",
-      "label_name": "Age",
-      "label": 42
-    }
-  ]
-}
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<p>{<br>
+$~$$~$"anno_version":$~$"0.2.0",<br>
+$~$$~$"label_checked":$~$1,<br>
+$~$$~$"height":$~$264,<br>
+$~$$~$"width":$~$263,<br>
+$~$$~$"depth":$~$3,<br>
+$~$$~$"ext":$~$"jpg",<br>
+$~$$~$"labels":$~$[
+$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$"label_type":$~$"clf",<br>
+$~$$~$$~$$~$$~$$~$"label_name":$~$"Gender",<br>
+$~$$~$$~$$~$$~$$~$"label":$~$"Female"<br>
+$~$$~$$~$$~$},<br>
+$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$"label_type":$~$"clf",<br>
+$~$$~$$~$$~$$~$$~$"label_name":$~$"Emotion",<br>
+$~$$~$$~$$~$$~$$~$"label":$~$"Happiness"<br>
+$~$$~$$~$$~$},<br>
+$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$"label_type":$~$"reg",<br>
+$~$$~$$~$$~$$~$$~$"label_name":$~$"Age",<br>
+$~$$~$$~$$~$$~$$~$"label":$~$42<br>
+$~$$~$$~$$~$}<br>
+$~$$~$]<br>
+}</p>
+<hr>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13878,35 +13888,45 @@ Synchronization complete!
 
 </div>
 </div>
-</div>{
-  "anno_version": "0.2.0",
-  "label_checked": 1,
-  "height": 300,
-  "width": 300,
-  "depth": 3,
-  "ext": "jpg",
-  "labels": [
-    {
-      "label_type": "bbox",
-      "object": [
-        {
-          "class": "person",
-          "x1": 25.367088607594937,
-          "y1": 182.74683544303798,
-          "x2": 42.79746835443038,
-          "y2": 200.31645569620252
-        },
-        {
-          "class": "person",
-          "x1": 88.0506329113924,
-          "y1": 58.0,
-          "x2": 128.0506329113924,
-          "y2": 100.0
-        }
-      ]
-    }
-  ]
-}
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<p>{<br>
+$~$$~$"anno_version"$~$: "0.2.0",<br>
+$~$$~$"label_checked"$~$: 1,<br>
+$~$$~$"height"$~$: 300,<br>
+$~$$~$"width"$~$: 300,<br>
+$~$$~$"depth"$~$: 3,<br>
+$~$$~$"ext"$~$: "jpg",<br>
+$~$$~$"labels"$~$: [<br>
+$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$"label_type"$~$: "bbox",<br>
+$~$$~$$~$$~$$~$$~$"object"$~$: [<br>
+$~$$~$$~$$~$$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"class"$~$: "person",<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x1"$~$: 25.367088607594937,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y1"$~$: 182.74683544303798,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x2"$~$: 42.79746835443038,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y2"$~$: 200.31645569620252<br>
+$~$$~$$~$$~$$~$$~$$~$$~$},<br>
+$~$$~$$~$$~$$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$ "class"$~$: "person",<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x1"$~$: 88.0506329113924,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y1"$~$: 58.0,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x2"$~$: 128.0506329113924,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y2"$~$: 100.0<br>
+$~$$~$$~$$~$$~$$~$$~$$~$}<br>
+$~$$~$$~$$~$$~$$~$]<br>
+$~$$~$$~$$~$}<br>
+$~$$~$]<br>
+}</p>
+<hr>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13920,37 +13940,47 @@ Synchronization complete!
 
 </div>
 </div>
-</div>{
-  "anno_version": "0.2.0",
-  "label_checked": 1,
-  "height": 2880,
-  "width": 2880,
-  "depth": 3,
-  "ext": "jpg",
-  "labels": [
-    {
-      "label_type": "rbbox",
-      "object": [
-        {
-          "class": "person",
-          "x": 1433.5394,
-          "y": 1151.9007,
-          "w": 206.441,
-          "h": 383.9458,
-          "a": 1.548375
-        },
-        {
-          "class": "person",
-          "x": 1921.1333,
-          "y": 1115.2,
-          "w": 472.2526,
-          "h": 317.7133,
-          "a": 2.547793
-        }
-      ]
-    }
-  ]
-}
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<p>{<br>
+$~$$~$"anno_version" :$~$"0.2.0",<br>
+$~$$~$"label_checked" :$~$1,<br>
+$~$$~$"height" :$~$2880,<br>
+$~$$~$"width" :$~$2880,<br>
+$~$$~$"depth" :$~$3,<br>
+$~$$~$"ext" :$~$"jpg",<br>
+$~$$~$"labels" :$~$[<br>
+$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$"label_type"$~$:$~$"rbbox",<br>
+$~$$~$$~$$~$$~$$~$"object" :$~$[
+$~$$~$$~$$~$$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"class" :$~$"person",<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x" :$~$1433.5394,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y" :$~$1151.9007,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"w" :$~$206.441,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"h" :$~$383.9458,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"a" :$~$1.548375<br>
+$~$$~$$~$$~$$~$$~$$~$$~$},<br>
+$~$$~$$~$$~$$~$$~$$~$$~${<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"class" :$~$"person",<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"x" :$~$1921.1333,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"y" :$~$1115.2,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"w" :$~$472.2526,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"h" :$~$317.7133,<br>
+$~$$~$$~$$~$$~$$~$$~$$~$$~$$~$"a" :$~$2.547793<br>
+$~$$~$$~$$~$$~$$~$$~$$~$}<br>
+$~$$~$$~$$~$$~$$~$]<br>
+$~$$~$$~$$~$}<br>
+$~$$~$]<br>
+}</p>
+<hr>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
