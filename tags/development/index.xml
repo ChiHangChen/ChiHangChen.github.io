@@ -6,10 +6,19 @@
     <description>Recent content in development on Chi-Hang Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chihangchen.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ShinyProxy - 付費購買 Shiny Server Pro 的另一種選擇</title>
+      <link>https://chihangchen.github.io/posts/shinyproxy/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chihangchen.github.io/posts/shinyproxy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>在GCP上架設永久免費的 ShinyServer</title>

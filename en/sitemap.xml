@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/categories/blog/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/categories/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -49,7 +49,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/tags/development/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -64,7 +64,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/series/hugo/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -79,7 +79,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/tags/hugo/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -94,7 +94,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/posts/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -109,7 +109,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/series/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -123,8 +123,23 @@
   </url>
   
   <url>
+    <loc>https://chihangchen.github.io/posts/shinyproxy/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cht"
+                href="https://chihangchen.github.io/cht/posts/shinyproxy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chihangchen.github.io/posts/shinyproxy/"
+                />
+  </url>
+  
+  <url>
     <loc>https://chihangchen.github.io/tags/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
@@ -139,7 +154,7 @@
   
   <url>
     <loc>https://chihangchen.github.io/tags/themes/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cht"
